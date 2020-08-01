@@ -26,10 +26,10 @@
    ## Database : MongoDB Atlas
 
 # Team member:
-  Jubi:github-jubi33717f(Logic design/All other parts)
-  Nash:github-NashZhao(Employee List/ Departments / Payroll /Payslip calculate)
-  Javen:github-deanwhest(Employee Attandance/Leave request)
-  Ocean:github-oceanview6(Event)
+  * Jubi:github-jubi33717f(Logic design/All other parts)
+  * Nash:github-NashZhao(Employee List/ Departments / Payroll /Payslip calculate)
+  * Javen:github-deanwhest(Employee Attandance/Leave request)
+  * Ocean:github-oceanview6(Event)
 
 # version control
   private bitbucket repository/JR/feature as branch
