@@ -19,7 +19,7 @@
     ......
 
 # Tech
-   ## frontend : React/Redux
+   ## Frontend : React/Redux
       https://hr-management-eight.vercel.app
    ## Backend : Nodejs(Koa) /JWT
       https://hr-management-hm.herokuapp.com/oas
@@ -31,7 +31,7 @@
   * Javen:github-deanwhest(Employee Attandance/Leave request)
   * Ocean:github-oceanview6(Event)
 
-# version control
+# Version control
   private bitbucket repository/JR/feature as branch
 
 # Some thoughts
