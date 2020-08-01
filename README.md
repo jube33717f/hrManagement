@@ -2,7 +2,7 @@
     Admin/Employee
 
 # Scenario: 
-    Small company HR management system
+    Small companies HR management system
 
 # Functionalities:
     Punch in/out(location detect)
