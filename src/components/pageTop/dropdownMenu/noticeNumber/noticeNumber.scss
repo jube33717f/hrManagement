@@ -1,0 +1,17 @@
+.noticeNumberBox{
+    width:0.9rem;
+    height:0.9rem;
+    color:#fff;
+    font-size: 0.01rem;
+    background-color: rgba(241, 28, 29, 0.8);
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 0.6rem;
+    margin-top:-1.85rem;
+    box-shadow: 0.1rem 0.1rem  0.02rem grey;
+    p{
+        padding:0;
+        margin-top: -0.115rem;
+    }
+}

@@ -1,0 +1,262 @@
+@media (max-width:800px){
+  #searchStyle,#pageButton{
+    float:none;
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .modal{
+    h2{
+      padding:5px 10px 20px 10px;
+      margin:0 auto;
+      text-align: center;
+    }
+    h3{
+      padding:5px 10px 20px 10px;
+      margin:0 auto;
+      text-align: center;
+    }
+    div{
+      padding:2px 3px 5px 5px !important;
+    }
+    &__inputBox{
+      width:220px !important;
+    }
+    input{
+      width:180px !important;
+    }
+    &__footer{
+      &__submit{
+        padding:14px 90px  !important;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      &__submit:hover{
+        cursor: pointer;
+        border-color: black;
+      }
+    }
+  }
+
+}
+.upperHeader{
+  margin:10px 0 10px 0;
+  b{
+    font-size: 26px;
+  }
+}
+.lowerHeader{
+  margin:0 0 5px 0;
+  padding:8px 0;
+  input{
+    padding: 5px 3px;
+    border-radius: 5px;
+  }
+  div{
+    float: right;
+  }
+}
+.blockStyle{
+  margin: 15px;
+  padding: 15px 15px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  .sortSection{
+    margin-bottom: 10px;
+    select{
+      padding: 5px 3px;
+      border-radius: 5px;
+    }
+  }
+  .phoneCards{
+    article{
+      background-color: #f5ebda;
+      border-bottom: 2px solid #e4002b;
+      box-shadow: 2px 2px 2px 2px #888888;
+      border-radius: 10px;
+      margin-bottom: 12px;
+      padding: 5px 10px;
+      // min-height: 180px;
+      width: 250px;
+      header{
+        // padding: 4px;
+        text-align: center;
+        img{
+          height: 80px;
+          width: 80px;
+          border-radius: 50%;
+          float: left;
+        }
+      }
+      p{
+        text-align: center;
+      }
+      footer{
+        border-top: 1px grey solid;
+        padding: 4px;
+      }
+      .cardFooter{
+        text-align: center;
+        button{
+          padding: 6px 20px 8px 20px;
+          margin-right: 10px;
+          border-radius: 5px;
+        }
+        button:hover{
+          cursor: pointer;
+        }
+        .deleteIcon{
+          color: red;
+        }
+      }
+    }
+  }
+  
+}
+.departBody{
+  overflow:auto;
+  width: 100%;
+  table{
+    overflow:scroll;
+    width: 100%;
+    border-collapse: collapse;
+    border:1px solid black;
+  }
+  th,td{
+    padding: 15px;
+    
+  }
+  td{
+    border:1px solid black;
+  }
+  th{
+    border: grey 2px solid;
+    background-color: #42424a;
+    // text-align: left;
+    .headerIcon{
+      float: right;
+    }
+    .headerIcon:hover{
+      cursor: pointer;
+    }
+    label{
+      color: white;
+    }
+  }
+  tbody{
+    tr{
+      text-align: left;
+    }
+  }
+}
+.departFooter{
+    padding: 17px 0;
+    .pageButton{
+      float: right;
+      .currentPage{
+        background-color: #7fa6c9;
+        color: white;
+        height: 30px;
+        width: 30px;
+        border-radius: 5px;
+      }
+      .changePage{
+          height: 30px;
+          width: 80px;
+          border-radius: 5px;
+      }
+      .changePage:hover{
+        cursor: pointer;
+      }
+    }
+    
+}
+.modal{
+  h1{
+    padding:5px 10px 20px 10px;
+    margin:0 auto;
+    text-align: center;
+  }
+  div{
+    padding:4px 5px 10px 10px;
+  }
+  &__inputList{
+    text-align: center;
+  }
+  &__inputBox{
+    text-align:left;
+    width:340px;
+    margin:0 auto;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 2px 2px #888888;
+    border: 1px white solid;
+    border-radius: 10px;
+    label:hover{
+      cursor: pointer;
+    }
+    label{
+      font-weight: bold;
+    }
+  }
+  &__inputBox:hover{
+    border: 1px grey solid;
+  }
+  input{
+    width:338px;
+    height: 30px;
+    border-radius: 5px;;
+    border: 0;
+  }
+  &__footer{
+    text-align:center;
+    &__submit{
+      background-color: #E31C5F;
+      color: white;
+      padding:18px 145px 18px 145px;
+      border-radius: 5px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    &__submit:hover{
+      cursor: pointer;
+      border-color: black;
+    }
+  }
+}
+.addSpan{
+  float: right;
+  .addNew{
+    background-color:#7fa6c9;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+  }
+  .addNew:hover{
+    cursor: pointer;
+    background-color: #3f7ca5;
+    transition: ease-out 0.5s;
+  }
+}
+.buttonList{
+    button{
+        padding: 3px 10px 4px 10px;
+        margin-right: 4px;
+        border-radius: 5px;
+    }
+    button:hover{
+      cursor: pointer;
+    }
+    .deleteIcon{
+      color: red;
+    }
+}
+
+
+.profileImg{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}

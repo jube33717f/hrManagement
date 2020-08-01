@@ -1,0 +1,39 @@
+.mr{
+    border-radius: 12px;
+    background: #F3F7F6;
+    width:250px;
+    margin-left:-165px;
+    margin-top:8px;
+    box-shadow: 0 1px 11px rgba(0,0,0,.15);
+    position: relative;
+    z-index: 100;
+    &__arrow{
+        width:10px;
+        height:10px;
+        background-color: #F3F7F6;
+        //box-shadow: 0 1px 11px rgba(0,0,0,.15);
+        margin-top:-5px;
+        margin-left:165px;
+        transform:rotate(45deg);
+    }
+    &-div{
+        width:100%;
+        height: 1.6rem;
+        margin:auto;
+        list-style: none;
+        text-align: center;
+        border-bottom: 1px solid rgba(96,96,96,.1);
+        p{
+            line-height: 1.2rem;
+            font-weight: 500;
+            font-size: 1.1rem;
+            color: #6c757d;
+
+        }
+        &:hover{
+            
+            background: rgba(209,232,228,0.15);
+        }
+        
+    }
+}

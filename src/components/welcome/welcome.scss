@@ -1,0 +1,70 @@
+.welcome{
+    width:96%;
+    margin-left:2rem;
+    margin-top:1rem;
+    position: relative;
+
+    &__text{
+        width:80%;
+        height: 10rem;
+        background-color: #FCBB40;
+        border-radius: 1rem;
+        float: left;
+        color:#fff;
+        h1{
+            font-size: 2em;
+            margin-left:1rem;
+            font-weight:bold;
+        }
+        p{
+            font-size:1.2rem;
+            margin-left:1rem;
+
+        }
+        
+    }
+    
+    &__animations{
+        width:16%;
+        height:100%;
+        position: absolute;
+        margin-left:83%;
+        margin-top:-0.7rem;
+        .balloon{
+            animation: floating 1.5s ease-in-out infinite;
+            &-body {
+                animation: pin-anim 1.5s linear infinite;
+            }
+            circle[fill='#000'] {
+                animation: eye-anim 1.5s ease infinite;
+            }
+            circle[fill='#000']:last-of-type {
+                animation-delay: -1s;
+            }
+        }
+        
+    }
+
+}
+@keyframes pin-anim {
+    0%,100% {
+      d: path('M16,20 q0,-16 16,-16 q16,0 16,16 q0, 8 -8, 16 q-8, 8 -8, 16 q0,-8 -8,-16 q-8,-8 -8,-16');
+    }
+    50% {
+      d: path('M16,20 q0,-15 16,-16 q16,1 16,16 q0, 12 -8, 16 q-8, 4 -8, 16 q0,-12 -8,-16 q-8,-4 -8,-16');
+    }
+  }
+  
+  @keyframes eye-anim {
+    50% { transform: translateY(-1px); }
+  }
+  
+  @keyframes floating {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    
+    50% {
+      transform: translateY(4px);
+    }
+}

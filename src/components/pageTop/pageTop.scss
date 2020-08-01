@@ -1,0 +1,54 @@
+.pagetop{
+    height:8rem;
+    // background: #33717f;
+    width: 100%;
+   // margin-left: 19.5rem;
+    position: relative;
+    
+    
+    &__left{
+        width:40%;
+        height:100px;
+        padding-top: 15px;
+        padding-left: 10px;
+        div{
+            padding-top: 7px; 
+            
+            font-size: 14px;
+            &:nth-child(1){
+                color:#5A5A5A;
+                font-size: 20px;
+                font-weight: 600;
+            }
+            
+        }
+    }
+    &__right{
+        height:100px;
+        margin-left: 40%;
+        width:60%;
+        margin-top:-100px;
+        position: relative;
+        div{
+            float: right;
+            margin-right: 5%;
+            position: relative;
+            div{
+                position: absolute;
+            }
+        }
+        &-photo{
+            height:40px;
+            width:40px;
+            border-radius: 50%;
+            cursor: pointer;
+            
+            img{
+                border-radius: 50%;
+                width:100%;
+            }
+        }
+        
+    }
+    border-bottom: 1px solid #DCE0DF;
+}

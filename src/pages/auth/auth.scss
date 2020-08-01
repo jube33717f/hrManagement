@@ -1,0 +1,201 @@
+body{
+    font-family: Circular;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+.authbody{
+    width:100%;
+    height:100%;
+    
+    background:url(https://thumbs.gfycat.com/UnfoldedRedJaguarundi-small.gif);
+    background-size: 100%;
+    position:fixed;
+}
+.auth{
+    font-family: Circular;
+    background: #fff;
+    margin-left:22.5%;
+    margin-top: 9%;
+    height:550px;
+    width:55%;
+    position: fixed;
+    border-radius: 12px;
+    header{
+        margin: 0 auto;
+        position: relative;
+        div{
+            float: left;
+            font-size: 15px;
+            font-weight: 100;
+            
+            margin-top: 0px;
+            margin-left: 2%;
+            width:30px;
+            height:30px;
+            border-radius: 50%;
+                
+            &:hover{
+                background-color: #EBEBEB;
+                opacity: 0.7;
+            }
+        }
+        h2{
+            // width:120px;
+            // margin: 0 auto;
+            // margin-left:45%;
+            // margin-left:calc(50%-120px);
+            font-weight: 500;       
+        }
+        border-bottom: 1px solid #EBEBEB;
+
+    }
+    &__info{
+        
+        margin:0 auto;
+        width: 80%;
+        margin-top: 9%;
+        border:1px solid #B0B0B0;
+        border-radius: 8px;
+        height: 162px;
+        padding: 0;
+        div{
+            height: 50%;
+            &:nth-child(1){
+                border-bottom: 1px solid #B0B0B0;
+            }
+        }
+        label{
+            margin-left:3%;
+            padding:0;
+            height:30px;
+            line-height: 40px;
+            color:rgb(113, 113, 113);
+            margin-bottom: 0;
+            &:nth-child(2){
+                display: none;
+            }
+        }
+        input{
+            line-height: 35px;
+            border: 1px solid transparent;  //自定义边框
+            outline: none;
+            width: 95%;
+            margin-left: 2%;
+            margin-top:0;
+            padding:0;
+            font-size: 20px;
+            
+        }
+        i{
+            position: absolute;
+            font-size: 35px;
+            margin-top:-15px;
+            margin-left: -40px;
+            color:#717171;
+        }
+        li{
+            position: absolute;
+            list-style-type:none;
+            color:#E51E56;
+            margin-top: -16px;
+            margin-left: 3px;
+
+        }
+        
+
+    }
+    &__bt{
+        width:80%;
+        margin:0 auto;
+        //margin-top: 30px;
+        button{
+            height: 3.8rem;
+            text-decoration: none;
+            outline: none;
+            margin-top: 45px;
+            background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+            font-size: 1.4rem ;
+            line-height: 20px;
+            font-weight: 600;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            padding-left: 24px;
+            padding-right: 24px;
+            color: rgb(255, 255, 255);
+            
+            width: 100%;
+            border-radius: 8px;
+            border-color:transparent
+            
+        }
+        a{
+            margin-top: 10px;
+            font-size: 15px;
+            float:right;
+            padding-left: 10px;
+            color:#0073B1;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+
+
+}
+.logintext{
+    
+    text-align: center;
+    font-size: 1.6rem;
+}
+@media screen and (max-width: 1100px){
+    .auth{
+        height:500px;
+    }
+    .auth__info{
+        height: 142px;
+        label{
+            
+            &:nth-child(1){
+                display: none;
+            }
+            &:nth-child(2){
+                display: block;
+            }
+        }
+    }
+}
+@media screen and (max-width: 500px){
+    .auth{
+        margin-left: 2.5%;
+        width: 95%;
+        margin-top:20%;
+        height: 450px;
+        header{
+            h2{
+                margin-left:35%;
+            }
+        }
+    }
+    .auth__info{
+        height: 112px;
+        label{
+            line-height:20px;
+            padding: 0;
+            margin-bottom: 0;
+            font-size: 10px;
+        }
+        input{
+            line-height:15px;
+            font-size: 10px;
+            margin-bottom: 5px;
+        }
+    }
+}
+@media screen and (max-width: 400px){
+    .auth{
+        
+        margin-top:30%;
+    }
+}
+

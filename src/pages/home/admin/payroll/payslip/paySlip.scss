@@ -1,0 +1,126 @@
+@media (max-width:920px){
+    #tableList{
+    display: block;
+    }
+    #earningTable,#deductionTable{
+      margin-left:15px;
+      margin-top: 15px;
+    }
+    #invoiceHeader,#employeeDetails,#employeeImg,#companyHeader,#invoiceHeader{
+        display: block;
+        float: none;
+    }
+}
+.slipPage{
+    margin: 15px;
+    padding: 15px 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    &_header{
+        background-color: white;
+        min-height: 180px;
+        &_company{
+            margin: 10px;
+            float: left;
+            display: flex;
+            img{
+                flex:30%;
+                width: 130px;
+                height: 140px;
+            }
+            div{
+                flex:70%;
+                width: 150px;
+                h3{
+                    margin-top: 0;
+                }
+            }
+        }
+        &_invoice{
+            float: right;
+        }
+    }
+}
+// .employeeDetails{
+//     margin-left: 10px;
+//     padding-bottom: 15px;
+//     margin-bottom: 10px;
+//     // border-bottom: 1px solid grey;
+//     .employeeImg{
+//         border-radius: 50%;
+//         float: left;
+//         height: 130px;
+//         width: 130px;
+//     }
+//     .employeeInfo{
+//         margin-left: 5px;
+//     }
+// }
+
+.bodySlip{
+    background-color: white;
+    border-top: 1px solid grey;
+    display: block;
+    &_details{
+        margin-left: 10px;
+        padding-bottom: 15px;
+        margin-bottom: 10px;
+        img{
+            border-radius: 50%;
+            float: left;
+            height: 130px;
+            width: 130px;
+        }
+        div{
+            margin-left: 5px;
+        }
+    }
+    &_tableList{
+        display: flex;
+        margin: 5px 10px;
+        
+        &_earn{
+            flex: 50%;
+            margin-right: 5px;
+            border :white;
+            thead{
+                background-color:#6e7d75;
+                color: white;
+            }
+        }
+        &_deduction{
+            flex: 50%;
+            margin-left: 5px;
+            border :white;
+            thead{
+                background-color: #ce7870;
+                color: white;
+            }
+        }
+    }
+}
+// .tableList{
+//     display: flex;
+//     margin: 5px 10px;
+//     .earningTable{
+//         flex: 50%;
+//         margin-right: 5px;
+//         border :white;
+//         .earningHeader{
+//             background-color:#6e7d75;
+//             color: white;
+//         }
+//     }
+//     .deductionTable{
+//         flex: 50%;
+//         margin-left: 5px;
+//         border :white;
+//         .deductionHeader{
+//             background-color: #ce7870;
+//             color: white;
+//         }
+//     }
+// }
+
+

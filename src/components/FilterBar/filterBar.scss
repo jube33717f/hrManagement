@@ -1,0 +1,57 @@
+.filterBar{
+    position: relative;
+    height: 4rem;
+    width:100%;
+    margin:1rem 0 1rem 0;
+    background:#FFDD9C;
+    // border-radius: 5rem;
+    &__filter{
+        // position: absolute;
+        float: right;
+        margin-top: 1rem;
+        margin-right:3%;
+        div{
+            float: left;
+            height:2.4rem;
+            width:2.4rem;
+            background-color:#EB646F ;
+            margin-right: 1.3rem;
+            text-align: center;
+            border-radius: 50%;
+            box-shadow:  0.2rem 0.2rem 0.2rem rgba(69, 65, 78, 0.25);
+        }
+        &-icon{
+            // color:#EB646F;
+            color:#FFDE9C;
+            font-size: 1.8rem;
+            margin-top:0.3rem;
+
+        }
+    }
+    z-index:200;
+}
+@media screen and (max-width: 1300px){
+    .filterBar{
+        height: 8rem;
+        &__filter{
+            // position: absolute;
+            float: left;
+            margin-top:4rem;
+            margin-left:2rem;
+            
+        }
+    }
+}
+@media screen and (max-width: 800px){
+    .filterBar{
+        height: 12rem;
+        align-items: center;
+        &__filter{
+            //position: absolute;
+            float: left;
+            margin-top:8rem;
+            align-items: center;
+            
+        }
+    }
+}

@@ -1,0 +1,123 @@
+.piechart{
+    text-align: center;
+    width:100%;
+    border-radius: 1rem;
+    background-color: pink;
+    // height: 33rem;
+    box-shadow:  0.2rem 0.2rem 0.2rem rgba(113, 96, 155, 0.2);
+    &-head{
+        font-weight: 500;
+        line-height: 1.6;
+        font-size: 1.1rem;
+        color:#fff;
+        padding: 1rem 1.25rem;
+        border-bottom: 1px solid #ebecec;
+        border-radius: 0.5rem;
+        li{
+            list-style:none; 
+            float: right; 
+            padding-right: 0.5rem;
+            padding-left: 0.5rem;
+            padding-top: 0.25rem;
+        }
+    }
+    &-content{
+        height:24rem;
+        margin: auto;
+        width:15rem;
+        height:15rem;
+        margin-top: 1rem;
+        border-radius: 50%;
+        background-color: transparent;
+        box-shadow:  0.2rem 0.2rem 0.2rem rgba(69, 65, 78, 0.25);
+        svg {
+            
+            border-radius: 50%;
+            margin:auto;
+            width:15rem;
+            height:15rem;
+            .circle{
+                stroke-dashoffset: 20;
+                animation: dash 1.5s linear forwards;
+                &:hover{
+                    animation: anim 1.5s ease infinite;
+                }
+                @keyframes anim {
+                    50% { transform: translateY(0px); }
+                  }
+                
+            }
+            @keyframes dash {
+                to {
+                  stroke-dashoffset:0;
+                }
+              }
+        }
+        
+    }
+    &-description{
+        margin-top: 2rem;
+        height: 12rem;
+        position: relative;
+        border-top-left-radius:0.5rem ;
+        border-top-right-radius:0.5rem ;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+       background-color: rgba(69, 65, 78, 0.02);
+        p{
+            font-size: 1.1rem;
+            
+            font-weight: 500;
+           
+        }
+        .rect{
+            // 
+            float:left;
+            text-shadow: rgba(69, 65, 78, 1);
+            padding:0.8rem;
+            height: 1rem;
+            
+        }
+        
+    }
+}
+
+@media screen and (max-width: 1494gitpx){
+    .piechart-head li{ 
+        padding-right: 0.3rem;
+        padding-left: 0.3rem;   
+        
+    }
+    
+}
+@media screen and (max-width: 1400px){
+    
+    .piechart-head li{ 
+        font-size: 1.1rem;
+        padding: 1rem 1.25rem;  
+        
+    }
+    .piechart-description{
+        margin:auto;
+        
+        height:7rem;
+    }
+}
+@media screen and (max-width: 1250px){
+    .piechart-description{
+        
+        height:9rem;
+    }
+}
+@media screen and (max-width: 850px){
+    .piechart-description{
+        
+        height:12rem;
+    }
+}
+@media screen and (max-width: 400px){
+    .piechart-description{
+        
+        height:14rem;
+    }
+}

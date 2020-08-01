@@ -1,0 +1,108 @@
+.popup{
+    position: fixed;
+    z-index: 9999999;
+    top:55%;
+    &__button{
+        z-index:100;
+        background-color:#F6A95E;
+        width:3rem;
+        height:3.1rem;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        text-align: center;
+        .rotate{
+            animation: rota 2.5s linear infinite;
+            @keyframes rota {
+                from {transform: rotate(0deg);}
+                to {transform: rotate(360deg);}
+            }
+        }
+        
+    }
+    &__content{
+        
+        margin-left:3.1rem;
+        box-shadow: -1px 1px 20px rgba(69, 65, 78, 0.15);
+        width:20rem;
+        height:13rem;
+        margin-top:-9rem;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        &-top{
+            padding: 0.9rem;
+            
+            text-align: left;
+            font-size: 16px;
+            font-weight: 600;
+            color: #ffffff;
+            border-top-left-radius: 0.9rem;
+            border-bottom: 1px solid #ebedf2;
+            background: #F6A95E;
+            
+        }
+        
+        &-condition{
+            font-family: Lucida Family;
+            text-align: center;
+            margin-top:-1.5rem;
+            &-left{
+                
+                margin-left: 50%;
+                // border-bottom-left-radius: 1rem;
+                color:#E14840;
+                // float: left;
+                
+                width:50%;
+                height:10rem;
+                // background-color: #FBF5E8;
+                background-image: url("https://images.unsplash.com/photo-1559963110-71b394e7494d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80");
+                
+                h2{
+                    font-size: 1.7rem;
+                    line-height: 3rem;
+                    padding-top: 1rem;
+                    
+                }
+                span{
+                    font-weight: 500;
+                    margin-left:-0.3rem;
+                    font-size: 1rem;
+                }
+                
+            }
+            &-right{
+                background-color: #C0D6CA;
+                color:#734C66;
+                float: left;
+                width:50%;
+                height:10rem;
+               
+                border-bottom-left-radius: 1rem;
+                h1{
+                    // position: absolute;
+                    font-weight: 700;
+                    line-height: 1.8rem;
+                    font-size: 3.8rem;
+                    margin-top:1rem;
+                    // padding-top:1.5rem;
+                    padding-left:0.4rem;
+                }
+                &-icon{
+                    padding-top:1rem;
+                    // margin-top:1rem;
+                    img{
+                        // padding-top:3rem;
+                        margin-top:-1rem;
+                        height: 5rem;
+                    }
+                }
+                
+                h3{
+                    margin-top:-1.3rem;
+                }
+            }
+        }
+
+    }
+    
+}

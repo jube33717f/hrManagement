@@ -1,0 +1,184 @@
+@media only screen and (max-width: 600px) {
+    #search, #page-button{
+        float:none;
+        margin-left: 10px;
+    }
+  }
+
+hr{
+    border-top: 1px solid #dddddd;
+}
+.leave-request-box{
+    background-color: white;
+    margin:10px;
+    padding:15px;
+    border-radius: 10px;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+}
+#leave-request-header{
+    margin:10px;
+}
+.add-leave-button{
+    background-color: rgb(36, 111, 173);
+    color:white;
+    border-radius:8px;
+    padding:8px;
+    border:1px;
+    cursor:pointer;
+    transition:0.4s linear;
+    float:right;
+    outline: none;
+}
+.add-leave-button:hover{
+    background:rgb(57, 57, 204);
+}
+.show-entries{
+    margin:10px;
+    display:inline-block;
+}
+.input{
+    border-radius: 4px;
+    border:1px solid grey;
+    padding:10px;
+}
+.search{
+    margin:10px;
+    float:right;
+    
+}
+.table-component{
+    overflow:auto;
+    width: 100%;
+}
+.employee-table{
+    border-collapse: collapse;
+    margin:25px 0;
+    width:100%;
+    text-align: center;
+    overflow: scroll;
+}
+.profile-photo{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+}
+.employee-table tr{
+    border-bottom:1px solid #dddddd;
+}
+.employee-table th,td{
+    padding:12px 15px;
+}
+.employee-table th{
+    background-color:rgb(41, 36, 36);
+    color:white
+}
+.employee-table td a{
+    font-size: 30px;
+    margin:5px;
+    transition:0.4s linear;
+    color:grey;
+}
+.icon-yes:hover{
+    color:green;
+}
+.icon-no:hover{
+    color:red;
+}
+.page-button{
+    float:right;
+    margin:10px;
+}
+.page-button button{
+    padding:10px;
+    border:1px solid lightgray;
+    outline:none;
+    transition: all 0.4s ease-in-out;
+}
+.page-button button:hover{
+    background-color: grey;
+}
+.page-button button:active{
+    background-color: green;
+}
+
+.page-previous{
+    border-radius:5px 0 0 5px;
+    background-color: whitesmoke;
+    opacity: 0.6;
+}
+.page-next{
+    border-radius:0 5px 5px 0;
+    background-color: whitesmoke;
+    opacity: 0.6;
+}
+.page-current{
+    background-color:rgb(36, 111, 173);
+    color:white;
+    cursor:pointer;
+}
+.footer{
+    display: inline-block;
+}
+input[type='date']::-webkit-inner-spin-button { 
+    visibility: hidden; 
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+.blank{
+    margin-top: 200px;
+}
+.leaveContent{
+    margin: 30px;
+}
+.leaveInput{
+    margin:10px;
+    padding:10px;
+    border:none; 
+    outline: none;
+    font-size: 15px;
+}
+.leaveButton{
+    margin:5px;
+    font-size: 15px;
+}
+#submitButton{
+    background-color: rgb(36, 111, 173);
+    color:white;
+    border-radius:8px;
+    padding:8px;
+    border:1px;
+    cursor:pointer;
+    transition:0.4s linear;
+    outline: none;
+}
+#submitButton:hover{
+    background:rgb(57, 57, 204);
+}
+#cancelButton{
+    background-color: white;
+    border-radius:8px;
+    padding:8px;
+    border:1px solid #dddddd;
+    cursor:pointer;
+    transition:0.4s linear;
+    outline: none;
+}
+#cancelButton:hover{
+    background: #bbbbbb;
+}
+.leave__button--search{
+    // height: 38px;
+    border-radius: 5px;
+    padding:10px;
+    border:1px solid lightgray;
+    outline:none;
+    transition: all 0.4s ease-in-out;
+}
+.leave__button--search:hover{
+    background-color: grey;
+}
+.leave__button--search:active{
+    background-color: green;
+}

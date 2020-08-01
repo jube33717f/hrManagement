@@ -1,0 +1,52 @@
+.topicFilter{
+    float: left;
+    z-index:100;
+    ul{
+        z-index:100;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+        font-weight: 200;
+        position: absolute;
+        width:20rem;
+        background-color: #FFDD9C;
+        margin-left: 3%;
+        border:1px solid rgba(204,204,204,.5);
+        li{
+            span{
+                margin-left:1rem;
+                margin-right: 1rem;
+            }
+            cursor: pointer;
+            list-style-type:none;
+            color: #EB646F ;
+            height: 25px;
+            padding-bottom: 5px;
+            padding-top: 15px;
+            width: calc(100%+2rem);
+            // width:22.5rem;
+            margin-left:-2.5rem;
+            border-bottom: 1px solid rgba(96,96,96,.04);
+            &:nth-child(1){
+                border-top: 1px solid rgba(96,96,96,.04);
+                
+            }
+            cursor:'pointer';
+            &:hover{
+                background-color: rgba(209,232,228,0.3);
+                
+            }
+            
+        }
+    }
+    
+}
+@media screen and (max-width: 1300px){
+    .topicFilter{
+        ul{
+            width: 85%;
+            li{
+
+            }
+        }
+    }
+}

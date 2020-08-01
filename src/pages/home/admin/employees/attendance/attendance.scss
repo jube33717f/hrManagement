@@ -1,0 +1,192 @@
+.attendance{
+  background-color: white;
+  margin:15px;
+  padding:25px;
+  padding-bottom: 80px;
+  border-radius: 10px;
+  box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+
+  &__table {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-collapse: collapse;
+    width: 100%;
+    padding: 20px;
+  }
+  &__firstColumn {
+    text-align: center;
+    white-space: nowrap;
+    width: 100%;
+    border-top: 1px solid lightgray;
+    border-collapse: collapse;
+ }
+ 
+ &__search{
+   position: absolute; 
+   right:30px;
+   padding:20px;
+ }
+ &__searchWord{
+  padding-left:20px;
+ }
+ &__input{
+  border-radius:4px;
+  border-color: grey;
+  height: 30px;
+}
+&__searchButton{
+  background-color:lightgray;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  transition-duration: 0.5s;
+ }
+ &__searchButton:hover  {
+   background-color: #3e8e41
+  }
+
+ &__searchButton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+&__explain{
+  background-color:white;
+  border: none;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  transition-duration: 0.5s;
+  
+ }
+ &__explain:hover  {
+   background-color: lightyellow
+  }
+
+&__explain:active {
+  background-color: lightyellow;
+  box-shadow: 0 5px lightyellow;
+  transform: translateY(4px);
+}
+
+&__div {
+  position: relative;
+  overflow-x:auto;
+  overflow-y: hidden;
+  padding-top: 20px;
+ }
+
+ &__icon--false {
+  background-color:#E96060;
+  height: 30px;
+   width: 30px;
+  padding: 15px;
+  text-align: center;
+  border-top: 1px solid lightgray;
+  border-collapse: collapse;
+ }
+
+ &__icon--falses {
+  background-color:#F3B15A;
+  height: 30px;
+   width: 30px;
+  padding: 15px;
+  text-align: center;
+  border-top: 1px solid lightgray;
+  border-collapse: collapse;
+ }
+
+ &__icon--no{
+  background-color:#E0CFBB;
+  height: 30px;
+   width: 30px;
+  padding: 15px;
+  text-align: center;
+  border-top: 1px solid lightgray;
+  border-collapse: collapse;
+}
+
+&__icon--true {
+  height: 30px;
+  width: 30px;
+  padding: 15px;
+  text-align: center;
+  border-top: 1px solid lightgray;
+  border-collapse: collapse;
+ }
+
+ &__icon--x {
+  background-color: #F3B15A;
+  height: 30px;
+   width: 30px;
+  padding: 15px;
+  text-align: center;
+  border-top: 1px solid lightgray;
+  border-collapse: collapse;
+ }
+
+ &__icon--xs {
+  background-color: #E96060;
+  height: 30px;
+  width: 30px;
+  padding: 15px;
+  text-align: center;
+  border-top: 1px solid lightgray;
+  border-collapse: collapse;
+ }
+
+  &__pageButton{
+    position: relative;
+    float:right;
+    margin:18px;
+  }
+
+  &__buttonPrev{
+    padding:8px;
+    border-radius:5px 0 0 5px;
+    background-color: whitesmoke; 
+   }
+
+  &__buttonPrev:hover  {
+     background-color: lightblue
+  }
+  
+  &__buttonPrev:active {
+    background-color:rgb(0, 132, 255);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  &__buttonPagenumber{
+    padding:8px;
+    background-color:rgb(36, 111, 173);
+    color:white;
+   }
+
+  &__bottonNext{
+    padding:8px;
+    border-radius:0 5px 5px 0;
+    background-color: whitesmoke;
+   }
+
+  &__bottonNext:hover  {
+     background-color: lightblue
+  }
+  
+  &__bottonNext:active {
+    background-color: rgb(0, 132, 255);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+
+}
+

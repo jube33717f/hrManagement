@@ -1,0 +1,118 @@
+.postss{
+    padding-top:100px;
+    width:90%;
+    margin-left:5%;
+    &__post{
+        padding:1rem;
+        background-color: #fff;
+        border-radius: 0.8rem;
+        border:0.1rem solid rgba(237, 239, 241,1);
+        width:100%;
+        &bar{
+            width: 100%;
+            height: 5rem;
+            float: left;
+            border-bottom: 0.2rem solid #F3F7F6;
+            &-img{
+                float: left;
+                height:4rem;
+                width: 4rem;
+                padding:0.5rem ;    
+                img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius:0.3rem;
+                }
+            }
+            p{
+                width: 100%;
+                h4{
+                    display: inline;
+                }
+                
+            }
+            
+            
+
+        }
+        &content{  
+            border-bottom:0.1rem solid rgba(237, 239, 241,.3) ;  
+            span{
+                margin-top:-0.5rem;
+            } 
+            &-icon{
+                color:#EA646F;
+                font-size: 1.3rem;
+                float: right;
+                margin-top: -1rem;
+                margin-right:3%;
+                
+            } 
+            &-iconActive{
+                transform: rotate(180deg);
+                
+            }
+        }
+        &contentImg{
+            width: 50%;
+            margin-top:0.5rem;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    ul{
+        position: relative;
+        li{
+            color:#858585;
+            list-style: none;
+            position: relative;
+            z-index: 100;
+            display:inline;
+            padding-right: 1rem;
+            
+        }
+    }
+}
+.comment{
+    textarea{
+        outline: none;
+        line-height:2rem;
+        border:1px solid #C0C0C0;
+        border-radius: 1rem;
+        width:90%;
+    }
+    button{
+        color:#EA646F;
+        font-weight: 700;
+        margin-left:1rem;
+        margin-top:0.1rem;
+        width:7%;
+        height: 2.7rem;
+        padding: 0.4rem 1rem 0.4rem 1rem;
+        background: #FFDC9C;
+        border-radius: 5rem;
+        border: 0.1rem solid rgba(41, 43, 50, 0.1);
+    }
+}
+
+.comments{
+    &__comment{
+
+        img{
+            width:50px;
+            height:50px;
+            border-radius: 50%;
+            display:inline-block;
+        }
+        h4{
+            display:inline-block;
+            margin-left:12px;
+            
+        }
+        border-bottom:  0.2rem solid #F3F7F6;;
+    }
+}
+button{
+    outline:none;
+}

@@ -1,0 +1,101 @@
+
+.posts{
+    // height:65vh;
+    width:90%;
+    margin-left:4%;
+    // overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right:2rem;
+    border-radius: 0.8rem;
+
+    &__post{
+        padding:1rem;
+        padding-right:2rem;
+        background-color: #fff;
+        border-radius: 0.8rem;
+        border:0.1rem solid rgba(237, 239, 241,1);
+        border-right: 1rem solid #F1F2F5;
+        width:100%;
+        &bar{
+            width: 100%;
+            height: 5rem;
+            float: left;
+            border-bottom: 0.2rem solid #F3F7F6;
+            &-button{
+                float:right;
+                margin-top:-3rem;
+                button{
+                    margin-left:1rem;
+                    font-size: 0.9rem;
+
+                    margin-right: 1rem;
+                    border: 0.1rem solid #fff;
+                    border-radius: 0.5rem;
+                    height: 1.8rem;
+                    width: 4.5rem;
+                    color: #fff;
+                    background-color: #EA646F;
+                }
+            }
+            &-img{
+                float: left;
+                height:4rem;
+                width: 4rem;
+                padding:0.5rem ;    
+                img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius:0.3rem;
+                }
+            }
+            p{
+                width: 100%;
+                h4{
+                    display: inline;
+                }
+                
+            }
+            
+            
+
+        }
+        &content{  
+            border-bottom:0.1rem solid rgba(237, 239, 241,.3) ;  
+            span{
+                margin-top:-0.5rem;
+            } 
+            &-icon{
+                color:#EA646F;
+                font-size: 1.3rem;
+                float: right;
+                margin-top: -1rem;
+                margin-right:3%;
+                
+            } 
+            &-iconActive{
+                transform: rotate(180deg);
+                
+            }
+        }
+        &contentImg{
+            width: 50%;
+            margin-top:0.5rem;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    ul{
+        z-index:0;
+        position: relative;
+        li{
+            color:#858585;
+            list-style: none;
+            position: relative;
+            z-index: 100;
+            display:inline;
+            padding-right: 1rem;
+            
+        }
+    }
+}

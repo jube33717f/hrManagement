@@ -1,0 +1,74 @@
+.timer{
+    align-items: center;
+    background:#fff;
+    margin-top: -2.5rem;
+    
+    section{
+        margin-left:-1%;
+        text-align: center; 
+        padding-bottom: 4rem;
+        div{
+            width:3rem;
+            height:3rem;
+            background-color: #e66465;
+            border-radius: 50%;
+            margin-left:48%;
+        }
+        h2{
+            padding-top:2rem;
+            font-size: 3.5rem;
+            animation: flipInX 2s;
+            // background:linear-gradient(#e66465, #9198e5);
+            color:#e66465;
+            text-shadow:0.1rem 0.1rem cornflowerblue;
+        }
+        @keyframes flipInX {
+            from {
+              transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+              animation-timing-function: ease-in;
+              opacity: 0;
+            }
+          
+            40% {
+              transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+              animation-timing-function: ease-in;
+            }
+          
+            60% {
+              transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+              opacity: 1;
+            }
+          
+            80% {
+              transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+            }
+          
+            to {
+              transform: perspective(400px);
+            }
+          }
+        h1{
+            margin-top:-3rem;
+            padding-top:0rem;
+            font-size: 10rem;
+            margin-bottom: 0;
+            color:#666;
+
+            
+        }
+        span{
+            cursor: pointer;
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+    }
+}
+.icon{
+    color:#fff;
+    font-size:1.9rem;
+    margin-top:0.5rem;
+    margin-left:0.23rem;
+}
+.icon-active{
+    color:#e66465
+}
