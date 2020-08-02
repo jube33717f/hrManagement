@@ -1,5 +1,5 @@
 
-!["Admin interface1"](https://images.pexels.com/photos/5009506/pexels-photo-5009506.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500)
+
 # Login Role:
     Admin/Employee
 
@@ -26,7 +26,12 @@
    ## Backend : Nodejs(Koa) /JWT
       https://hr-management-hm.herokuapp.com/oas
    ## Database : MongoDB Atlas
-
+# Interface 
+* Admin
+!["Admin interface1"](https://images.pexels.com/photos/5009506/pexels-photo-5009506.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+!["Admin interface2"](https://images.pexels.com/photos/5009508/pexels-photo-5009508.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+* Employee
+!["Employee interface"](https://images.pexels.com/photos/5009507/pexels-photo-5009507.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
 # Team member:
   * Jubi:github-jubi33717f(Logic design/All other parts)
   * Nash:github-NashZhao(Employee List/ Departments / Payroll /Payslip calculate)
