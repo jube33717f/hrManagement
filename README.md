@@ -43,9 +43,9 @@
   private bitbucket repository/JR/feature as branch
 
 # Some thoughts
-It is my first time to try a commercial project, but it is actually not a commercial pro. It has a lot of flaws. I notice some in the middle of the process and also been noticed by some experienced programmers and programmer team leaders in the end.
+It is my first time to try a commercial project, but it is actually not. This system has a lot of flaws. I notice some in the process and also been noticed by some experienced programmers and programmers team leaders.
 
-This project is really a important step for me to try to think commercially:
-how to design the logic/details/data models/devide responsibilities of frontend and backend/keep code clean/connect team members and when to use functional components/class components and when to use stateful components/stateless components and most important is how to make everything make sense in a real world: details is every where: logic / style / security issues... which is really interesting and not easy. I will always work on it.
+Meaningful and chanllegable:
+how to design the logic/details/data models/devide responsibilities of frontend and backend/keep code clean/connect team members and when to use functional components/class components and when to use stateful components/stateless components and most important is how to make everything make sense in a real world: details is every where: logic / style / security issues... which is really interesting and not easy. Will always work on it!
 
 
