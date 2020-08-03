@@ -46,6 +46,6 @@
 It is my first time to try a commercial project, but it is actually not. This system has a lot of flaws. I notice some in the process and also been noticed by some experienced programmers and programmers team leaders.
 
 Meaningful and chanllegable:
-how to design the logic/details/data models/devide responsibilities of frontend and backend/keep code clean/connect team members and when to use functional components/class components and when to use stateful components/stateless components and most important is how to make everything make sense in a real world: details is every where: logic / style / security issues... which is really interesting and not easy. Will always work on it!
+how to design the logic/details/data models/devide responsibilities of frontend and backend/keep code clean/connect team members , when to use functional components/class components , when to use stateful components/stateless components and most important is how to make everything make sense in a real world: details is every where: logic / style / security issues... which is really interesting and not easy. Will always work on it!
 
 
