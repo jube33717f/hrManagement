@@ -1,6 +1,15 @@
 
 # Link
 [This link](https://hr-management-git-master.jubi33717f.vercel.app/)
+
+**You can test it by**
+Admin->
+acc:admin-Mark@gmail.com
+password:admin-Mark@gmail.com
+EMployee->
+acc:John1@gmail.com
+password:John1@gmail.com
+
 # Login Role:
     Admin/Employee
 
