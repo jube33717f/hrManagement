@@ -7,7 +7,7 @@
 Admin->
 acc:admin-Mark@gmail.com
 password:admin-Mark@gmail.com
-EMployee->
+Employee->
 acc:John1@gmail.com
 password:John1@gmail.com
 ```
